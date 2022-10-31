@@ -32,7 +32,7 @@ h2 {
   width: 25%;
   margin: 1%;
   border-radius: 10%;
-  box-shadow: 4px 4px 14px rgba(0,0,0,0.25);
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
   transition: all 0.3s;
 }
 #avatar:hover {
@@ -43,7 +43,7 @@ h2 {
   margin-left: 3%;
 }
 .bio-element {
- margin: 5% 0;
+  margin: 5% 0;
 }
 .bio-element h4 {
   margin: 1% 0;
@@ -55,7 +55,7 @@ h2 {
 .goals {
   margin: 2vh 0;
   padding: 2vh 0;
-  background-color: #f7f7f7;
+  background-color: #f9f9f9;
   border-radius: 5vh;
   width: 60%;
 }
@@ -74,7 +74,9 @@ h2 {
 }
 .goals li:before {
   content: '✔';
-  position: absolute; top: -2px; left: -20px;
+  position: absolute;
+  top: -2px;
+  left: -20px;
   color: #384354;
 }
 .goals li:hover {
@@ -85,7 +87,7 @@ h2 {
 .time {
   margin: 2vh 0;
   padding: 2vh 0;
-  background-color: #f7f7f7;
+  background-color: #f9f9f9;
   border-radius: 5vh;
   width: 60%;
 }
@@ -100,7 +102,7 @@ h2 {
 .courses {
   margin: 2vh 0;
   padding: 2vh 0;
-  background-color: #f7f7f7;
+  background-color: #f9f9f9;
   border-radius: 5vh;
   width: 60%;
 }
@@ -119,14 +121,19 @@ h2 {
 .courses-list td {
   padding: 2% 0;
 }
-.courses-list td:first-child {
+.courses-list a {
+  color: #384354;
+  text-decoration: none;
+}
+.courses-list a:hover {
+  color: #384354;
   text-decoration: underline;
 }
 
 .contacts {
   margin: 2vh 0;
   padding: 2vh 0;
-  background-color: #f7f7f7;
+  background-color: #f9f9f9;
   border-radius: 5vh;
   width: 60%;
 }
